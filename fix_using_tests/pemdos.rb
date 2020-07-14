@@ -2,16 +2,14 @@
 require 'pry'
 
 def snake_it_up(string)
+  binding.pry
   if string[0] == "s"
-    s = 10 * "s"
+    s = ssssssssss
+    binding.pry
     s + string
     binding.pry
-    puts 'hello'
   else
-    string
     binding.pry
-    puts 'hello'
+    string
   end
-  binding.pry
-  puts 'hello'
 end
